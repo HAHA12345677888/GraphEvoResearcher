@@ -1,0 +1,15 @@
+# never commit secrets
+.deepseek_api_key
+*.key
+.env
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# data / results (regenerable)
+results/
+data/
+*.jsonl
+*.log
